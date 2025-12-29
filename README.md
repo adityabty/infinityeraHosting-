@@ -1,66 +1,45 @@
+# InfinityEra Hosting Platform
 
-# InfinityEra Hosting Panel
+A modern, credit-based hosting platform for Telegram Music Bots built with React and Tailwind CSS.
 
-A React + Tailwind based VPS / Bot Hosting Dashboard frontend.
+## Features
 
-## 🚀 Tech Stack
+- 🚀 Deploy bots directly from GitHub
+- 💳 Credit-based pricing system
+- 📊 Real-time bot monitoring
+- 🎨 Modern, responsive UI
+- 🔒 Secure authentication
+- 📱 Mobile & Desktop friendly
 
-- React 18
-- TailwindCSS
-- Lucide Icons
+## Installation
 
-## 📂 Project Structure
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/infinityera-hosting.git
 
-src/
- ├─ App.jsx
- ├─ index.jsx
- ├─ index.css
- └─ InfinityEraHosting.jsx
+# Navigate to project directory
+cd infinityera-hosting
 
-## 📦 Install Dependencies
-
+# Install dependencies
 npm install
-npm install lucide-react
 
-## 🎨 Tailwind Setup
-
-npx tailwindcss init -p
-
-tailwind.config.js
-
-content: [
-  "./public/index.html",
-  "./src/**/*.{js,jsx}"
-]
-
-src/index.css
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-## ▶ Run Project (Development)
-
+# Start development server
 npm start
-
-App opens at:
-http://localhost:3000
-
-## 🏗 Build for Production
-
+Pricing Plans
+Starter: ₹99 - 100 Credits
+Pro: ₹449 - 500 Credits
+Enterprise: ₹1199 - 1500 Credits
+Tech Stack
+React 18
+Tailwind CSS
+Lucide React Icons
+React Hooks
+Deployment
+# Build for production
 npm run build
 
-Output folder:
-build/
+# Deploy to Vercel
+vercel
 
-## 🌐 Deploy on VPS (Nginx)
-
-rm -rf /var/www/html/*
-cp -r build/* /var/www/html/
-systemctl restart nginx
-
-Website live at your VPS IP.
-
-## ✨ Credits
-
-InfinityEra Panel UI
+# Or deploy to Netlify
+netlify deploy
